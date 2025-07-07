@@ -1,3 +1,5 @@
+// const Projects = [{ key: 1 }];
+
 export default function Projects() {
   return (
     <div className="flex flex-col text-left p-8 gap-4">

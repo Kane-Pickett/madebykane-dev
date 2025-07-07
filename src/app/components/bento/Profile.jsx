@@ -14,9 +14,12 @@ export default function About() {
         />
         <div className="flex flex-col text-left gap-2">
           <h1>Kane Pickett</h1>
-          <p>Software Dev & Remote Ninja</p>
+          <p className="text-zinc-400">Software Dev & Remote Ninja</p>
+          <p className="text-zinc-400">New Zealand</p>
         </div>
       </div>
+
+      <div></div>
     </div>
   );
 }
