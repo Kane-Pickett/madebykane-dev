@@ -1,7 +1,7 @@
 export default function TechStack() {
   return (
-    <div className="p-8">
-      <h1 className="text-white text-4xl font-bold">Jutsu Stack</h1>
+    <div className="text-left p-8">
+      <h1 className="text-white font-bold">Tech Stack</h1>
 
       <div className="flex flex-col gap-4 my-4">
         <ul>

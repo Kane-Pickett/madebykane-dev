@@ -2,8 +2,10 @@
 
 export default function BentoBox({ children }) {
   return (
-    <div className="bg-gradient-to-br from-zinc-900 to-zinc-900/10 border-1 border-zinc-800 p-2 rounded-lg">
-      {children}
+    <div className="p-[1px] bg-gradient-to-br from-white/20 via-white/2 to-transparent rounded-lg group duration-400 hover:scale-104 hover:from-white/30 hover:via-white/4 hover:to-transparent">
+      <div className="flex justify-between items-center px-4 py-2 bg-gradient-to-br from-black/75 via-black/60 to-black/40 backdrop-blur-lg rounded-lg">
+        {children}
+      </div>
     </div>
   );
 }

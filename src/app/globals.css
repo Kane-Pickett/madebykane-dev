@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
 @theme inline {
@@ -14,7 +16,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
@@ -27,4 +29,24 @@ body {
 
 ul {
   list-style-type: square;
+}
+
+h1 {
+  font-family: "JetBrains Mono", sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+p,
+h2,
+h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.jetbrain {
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+.Jakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
 }

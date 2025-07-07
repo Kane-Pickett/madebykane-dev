@@ -1,5 +1,5 @@
 import BentoBox from "./components/BentoBox";
-import About from "./components/bento/About";
+import About from "./components/bento/Profile";
 import ActiveProject from "./components/bento/ActiveProject";
 import Contact from "./components/bento/Contact";
 import CurrentLearning from "./components/bento/CurrentLearning";
@@ -11,20 +11,18 @@ import Level from "./components/bento/Level";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center m-auto">
-      <section>
-        <div className="grid grid-cols-4 items-stretch gap-4">
-          <BentoBox>
-            <TechStack />
-          </BentoBox>
-
-          <div className="col-span-2">
+    <main>
+      <section className="flex min-h-screen items-center justify-center m-auto mx-32">
+        <div className="grid grid-cols-5 gap-6 items-stretch">
+          <div className="col-span-1 flex flex-col gap-6 h-full items-stretch">
             <BentoBox>
-              <About />
+              <CurrentLearning />
             </BentoBox>
-          </div>
 
-          <div className="flex flex-col gap-4">
+            <BentoBox>
+              <YearsExperience />
+            </BentoBox>
+
             <BentoBox>
               <TodayXp />
             </BentoBox>
@@ -34,25 +32,25 @@ export default function Home() {
             </BentoBox>
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div className="col-span-2 flex flex-col gap-6 h-full items-stretch">
             <BentoBox>
-              <YearsExperience />
+              <About />
             </BentoBox>
 
             <BentoBox>
-              <CurrentLearning />
+              <TechStack />
             </BentoBox>
           </div>
 
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-col gap-6 h-full items-stretch">
             <BentoBox>
               <Projects />
             </BentoBox>
-          </div>
 
-          <BentoBox>
-            <Contact />
-          </BentoBox>
+            <BentoBox>
+              <Contact />
+            </BentoBox>
+          </div>
         </div>
       </section>
     </main>
