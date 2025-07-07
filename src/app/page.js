@@ -1,59 +1,57 @@
-import BentoBox from "./componets/BentoBox";
-import About from "./bento/About";
-import ActiveProject from "./bento/ActiveProject";
-import Contact from "./bento/Contact";
-import CurrentLearning from "./bento/CurrentLearning";
-import Projects from "./bento/Projects";
-import TechStack from "./bento/TechStack";
-import YearsExperience from "./bento/YearsExperience";
-import TodayXp from "./bento/ToadyXP";
-import Curiosity from "./bento/Curiosity";
-import Level from "./bento/Level";
+import BentoBox from "./components/BentoBox";
+import About from "./components/bento/About";
+import ActiveProject from "./components/bento/ActiveProject";
+import Contact from "./components/bento/Contact";
+import CurrentLearning from "./components/bento/CurrentLearning";
+import Projects from "./components/bento/Projects";
+import TechStack from "./components/bento/TechStack";
+import YearsExperience from "./components/bento/YearsExperience";
+import TodayXp from "./components/bento/TodayXP";
+import Level from "./components/bento/Level";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center m-auto">
-      <section className="grid grid-cols-2 gap-4">
-        <BentoBox>
-          <About />
-        </BentoBox>
-
-        <BentoBox>
-          <ActiveProject />
-        </BentoBox>
-
-        <BentoBox>
-          <Contact />
-        </BentoBox>
-
-        <BentoBox>
-          <Projects />
-        </BentoBox>
-
-        <BentoBox>
-          <TechStack />
-        </BentoBox>
-
-        {/* small boxes */}
-        <div className="grid grid-cols-3 gap-4">
+      <section>
+        <div className="grid grid-cols-4 items-stretch gap-4">
           <BentoBox>
-            <YearsExperience />
+            <TechStack />
           </BentoBox>
 
-          <BentoBox>
-            <TodayXp />
-          </BentoBox>
+          <div className="col-span-2">
+            <BentoBox>
+              <About />
+            </BentoBox>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <BentoBox>
+              <TodayXp />
+            </BentoBox>
+
+            <BentoBox>
+              <Level />
+            </BentoBox>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <BentoBox>
+              <YearsExperience />
+            </BentoBox>
+
+            <BentoBox>
+              <CurrentLearning />
+            </BentoBox>
+          </div>
+
+          <div className="col-span-2">
+            <BentoBox>
+              <Projects />
+            </BentoBox>
+          </div>
 
           <BentoBox>
-            <Curiosity />
-          </BentoBox>
-
-          <BentoBox>
-            <Level />
-          </BentoBox>
-
-          <BentoBox>
-            <CurrentLearning />
+            <Contact />
           </BentoBox>
         </div>
       </section>
