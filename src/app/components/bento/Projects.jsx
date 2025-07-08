@@ -41,7 +41,7 @@ export default function Projects() {
         {Missions.map(({ key, title, subtitle, linkIcon: Icon, href }) => (
           <div
             key={key}
-            className="p-[1px] bg-gradient-to-br from-white/20 via-white/2 to-transparent rounded-xl group duration-400 hover:scale-105 hover:from-white/30 hover:via-white/4 hover:to-transparent"
+            className="p-[1px] bg-gradient-to-br from-white/20 via-white/2 to-transparent rounded-xl group transition-all duration-400 hover:scale-105 hover:from-emerald-300/30 hover:via-emerald-300/4 hover:to-transparent group-hover:from-emerald-400/30 hover:via-emerald-400/4 hover:to-transparent"
           >
             <a
               className="flex flex-col gap-4 p-4 bg-gradient-to-br from-black/75 via-black/60 to-transparent backdrop-blur-sm rounded-xl"
@@ -50,7 +50,7 @@ export default function Projects() {
             >
               <div className="flex flex-row items-center justify-between">
                 <h2>{title}</h2>
-                <Icon className="text-zinc-800 duration-800 group-hover:text-zinc-200" />
+                <Icon className="text-zinc-800 duration-800 group-hover:text-emerald-400" />
               </div>
               <div>
                 <p className="text-sm text-zinc-400">{subtitle}</p>

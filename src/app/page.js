@@ -19,39 +19,39 @@ export default function Home() {
         />
         <div className="grid grid-cols-5 gap-6 items-stretch">
           <div className="col-span-1 flex flex-col gap-6 h-full items-stretch">
-            <BentoBox>
+            <BentoBox className="hover:from-amber-400/30 hover:via-amber-400/4 hover:to-transparent">
               <CurrentLearning />
             </BentoBox>
 
-            <BentoBox>
+            <BentoBox className="hover:from-sky-400/30 hover:via-sky-400/4 hover:to-transparent">
               <YearsExperience />
             </BentoBox>
 
-            <BentoBox>
+            <BentoBox className="hover:from-emerald-400/30 hover:via-emerald-400/4 hover:to-transparent">
               <TodayXp />
             </BentoBox>
 
-            <BentoBox>
+            <BentoBox className="hover:from-violet-400/40 hover:via-violet-400/4 hover:to-transparent">
               <Level />
             </BentoBox>
           </div>
 
           <div className="col-span-2 flex flex-col gap-6 h-full items-stretch">
-            <BentoBox>
+            <BentoBox className="hover:from-violet-400/40 hover:via-violet-400/4 hover:to-transparent">
               <About />
             </BentoBox>
 
-            <BentoBox>
+            <BentoBox className="hover:from-sky-400/30 hover:via-sky-400/4 hover:to-transparent">
               <TechStack />
             </BentoBox>
           </div>
 
           <div className="col-span-2 flex flex-col gap-6 h-full items-stretch">
-            <BentoBox>
+            <BentoBox className="hover:from-emerald-400/30 hover:via-emerald-400/4 hover:to-transparent">
               <Projects />
             </BentoBox>
 
-            <BentoBox>
+            <BentoBox className="hover:from-amber-400/30 hover:via-amber-400/4 hover:to-transparent">
               <Contact />
             </BentoBox>
           </div>

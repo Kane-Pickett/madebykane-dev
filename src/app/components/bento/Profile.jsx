@@ -9,13 +9,15 @@ export default function About() {
           alt="Kane Pickett"
           width={140}
           height={140}
-          className="rounded-xl border-1 border-zinc-700"
+          className="rounded-xl border-1 border-zinc-700 group-hover:border-violet-400/30 duration-600"
           priority
         />
         <div className="flex flex-col text-left gap-2">
           <h1>Kane Pickett</h1>
-          <p className="text-zinc-400">Software Dev & Remote Ninja</p>
-          <p className="text-zinc-400">New Zealand</p>
+          <p className="text-zinc-400 group-hover:text-violet-400/80 duration-600">
+            Software Dev & Remote Ninja
+          </p>
+          <p className="text-zinc-500">New Zealand</p>
         </div>
       </div>
 
