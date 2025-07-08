@@ -6,7 +6,7 @@ import CurrentLearning from "./components/bento/CurrentLearning";
 import Projects from "./components/bento/Projects";
 import TechStack from "./components/bento/TechStack";
 import YearsExperience from "./components/bento/YearsExperience";
-import TodayXp from "./components/bento/TodayXP";
+import TodayXp from "./components/bento/TodayXp";
 import Level from "./components/bento/Level";
 
 export default function Home() {
