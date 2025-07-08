@@ -18,19 +18,24 @@ const Buttons = [
 
 export default function Contact() {
   return (
-    <div className="flex flex-col gap-4 p-8 mb-4">
-      <h1 className="text-3xl font-semibold">Contact</h1>
+    <div className="flex flex-col gap-4 p-8">
+      {/* <h1 className="text-3xl font-semibold">Contact</h1> */}
 
       <div className="flex flex-col gap-4 my-4">
         {Buttons.map(({ key, icon: Icon, text, href }) => (
-          <a key={key} href={href}>
-            <div className="flex flex-row items-center gap-4 p-4 bg-gradient-to-br from-zinc-900/50 to-transparent rounded-xl w-xl">
-              <div className="p-2 border-1 border-zinc-700 rounded-xl">
-                <Icon className="w-6 h-auto" />
+          <div
+            key={key}
+            className="p-[1px] bg-gradient-to-br from-white/20 via-white/2 to-transparent rounded-xl group duration-600 hover:scale-105 hover:from-white/30 hover:via-white/4 hover:to-transparent"
+          >
+            <a href={href}>
+              <div className="flex flex-row items-center gap-4 p-4 bg-gradient-to-br from-black/75 via-black/60 to-transparent backdrop-blur-sm rounded-xl w-xl">
+                <div className="p-2 border-1 border-zinc-700 rounded-xl">
+                  <Icon className="w-6 h-auto" />
+                </div>
+                <p className="font-medium text-base">{text}</p>
               </div>
-              <p className="font-medium text-base">{text}</p>
-            </div>
-          </a>
+            </a>
+          </div>
         ))}
       </div>
     </div>

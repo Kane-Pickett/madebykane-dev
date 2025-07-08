@@ -15,7 +15,7 @@ export default function Home() {
       <section className="flex min-h-screen items-center justify-center m-auto mx-32">
         <div
           id="grid"
-          class="absolute inset-0 -z-10 h-full w-full bg-black bg-[linear-gradient(to_right,#101010_1px,transparent_1px),linear-gradient(to_bottom,#101010_1px,transparent_1px)] bg-[size:6rem_6rem]"
+          className="absolute inset-0 -z-10 h-full w-full bg-black bg-[linear-gradient(to_right,#181818_1px,transparent_1px),linear-gradient(to_bottom,#181818_1px,transparent_1px)] bg-[size:8rem_8rem]"
         />
         <div className="grid grid-cols-5 gap-6 items-stretch">
           <div className="col-span-1 flex flex-col gap-6 h-full items-stretch">
