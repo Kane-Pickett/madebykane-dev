@@ -25,7 +25,7 @@ export default function Contact() {
         {Buttons.map(({ key, icon: Icon, text, href }) => (
           <div
             key={key}
-            className="p-[1px] bg-gradient-to-br from-white/20 via-white/2 to-transparent rounded-xl group duration-600 hover:scale-105 hover:from-amber/30 hover:via-amber/4 hover:to-transparent group-hover:from-amber-400/30 hover:via-amber-400/4 hover:to-transparent motion-preset-rebound-up"
+            className="p-[1px] bg-gradient-to-br from-white/12 via-white/1 to-transparent rounded-xl group duration-600 hover:scale-105 hover:from-amber/30 hover:via-amber/4 hover:to-transparent group-hover:from-amber-400/30 hover:via-amber-400/4 hover:to-transparent motion-preset-rebound-up"
             style={{ animationDelay: `${1000 + key * 200}ms` }}
           >
             <a href={href} target="_blank">

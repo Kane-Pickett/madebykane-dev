@@ -42,7 +42,7 @@ export default function TechStack() {
         {Icons.map(({ key, icon: Icon }) => (
           <div
             key={key}
-            className="p-[1px] bg-gradient-to-br from-white/20 via-white/2 to-transparent rounded-xl group duration-400 hover:scale-110 group-hover:from-sky-400/30 group-hover:via-sky-400/4 hover:to-transparent motion-preset-rebound-up"
+            className="p-[1px] bg-gradient-to-br from-white/20 via-white/1 to-transparent rounded-xl group duration-400 hover:scale-110 group-hover:from-sky-400/30 group-hover:via-sky-400/4 hover:to-transparent motion-preset-rebound-up"
             style={{ animationDelay: `${key * 120}ms` }}
           >
             <div className="p-4 bg-gradient-to-br from-black/75 via-black/60 to-transparent backdrop-blur-sm hover:from- rounded-xl duration-400 text-zinc-400 hover:text-zinc-200 hover:from-black/50 group-hover:text-zinc-300">

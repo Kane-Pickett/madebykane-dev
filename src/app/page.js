@@ -1,6 +1,5 @@
 import BentoBox from "./components/BentoBox";
 import About from "./components/bento/Profile";
-import ActiveProject from "./components/bento/ActiveProject";
 import Contact from "./components/bento/Contact";
 import CurrentLearning from "./components/bento/CurrentLearning";
 import Projects from "./components/bento/Projects";
