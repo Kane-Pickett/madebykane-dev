@@ -21,7 +21,7 @@ export default function Contact() {
     <div className="flex flex-col gap-4 p-8">
       {/* <h1 className="text-3xl font-semibold">Contact</h1> */}
 
-      <div className="flex flex-col gap-4 my-4 pb-6">
+      <div className="flex flex-col gap-4 my-4">
         {Buttons.map(({ key, icon: Icon, text, href }) => (
           <div
             key={key}
@@ -29,7 +29,7 @@ export default function Contact() {
             style={{ animationDelay: `${1000 + key * 200}ms` }}
           >
             <a href={href} target="_blank">
-              <div className="flex flex-row items-center gap-4 p-4 bg-gradient-to-br from-black/75 via-black/60 to-transparent hover:from-black/70 backdrop-blur-sm rounded-xl w-lg">
+              <div className="flex flex-row items-center gap-4 p-4 bg-gradient-to-br from-black/75 via-black/60 to-transparent hover:from-black/70 backdrop-blur-sm rounded-xl w-full">
                 <div className="p-2 border-1 border-zinc-700 rounded-xl group-hover:border-amber-400/20 duration-600">
                   <Icon className="w-6 h-auto" />
                 </div>

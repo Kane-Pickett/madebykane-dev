@@ -36,9 +36,11 @@ const Icons = [
 export default function TechStack() {
   return (
     <div className="flex flex-col gap-4 p-8">
-      <h1 className="text-white font-bold">Tech Stack</h1>
+      <h1 className="text-white font-bold text-center md:text-left mb-4">
+        Tech Stack
+      </h1>
 
-      <div className="grid grid-cols-6 items-center text-center m-auto my-4 gap-4">
+      <div className="grid grid-cols-4 md:grid-cols-6 items-center text-center justify-center m-auto gap-4">
         {Icons.map(({ key, icon: Icon }) => (
           <div
             key={key}

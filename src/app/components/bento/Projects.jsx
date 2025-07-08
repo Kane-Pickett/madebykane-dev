@@ -28,7 +28,7 @@ const Missions = [
     title: "OccultDungeon",
     subtitle: "Simple adventure game",
     linkIcon: LuLink,
-    href: "https://www.getninjafy.com/"
+    href: "https://occult-dungeon.vercel.app/"
   }
 ];
 
@@ -37,7 +37,7 @@ export default function Projects() {
     <div className="flex flex-col text-left p-8 gap-4">
       {/* <h1 className="text-white font-bold">Missions</h1> */}
 
-      <div className="grid grid-cols-2 my-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 my-4 gap-4">
         {Missions.map(({ key, title, subtitle, linkIcon: Icon, href }) => (
           <div
             key={key}
