@@ -1,16 +1,15 @@
-import { LuMail } from "react-icons/lu";
-import { BsPersonVideo } from "react-icons/bs";
+import { SiGooglemeet, SiGmail } from "react-icons/si";
 
 const Buttons = [
   {
     key: 1,
-    icon: LuMail,
-    text: "Email",
+    icon: SiGmail,
+    text: "Email Me",
     href: "mailto:kane@getminimal.io?subject=Let's%20Connect&body=Heya%20Kane,%I%wanted%to%get%in%touch!"
   },
   {
     key: 2,
-    icon: BsPersonVideo,
+    icon: SiGooglemeet,
     text: "Book a Call",
     href: "https://calendly.com/kanepickett/15min"
   }
@@ -31,9 +30,9 @@ export default function Contact() {
             <a href={href} target="_blank">
               <div className="flex flex-row items-center gap-4 p-4 bg-gradient-to-br from-black/75 via-black/60 to-transparent hover:from-black/70 backdrop-blur-sm rounded-xl w-full">
                 <div className="p-2 border-1 border-zinc-700 rounded-xl group-hover:border-amber-400/20 duration-600">
-                  <Icon className="w-6 h-auto" />
+                  <Icon className="w-6 h-auto text-zinc-400 group-hover:text-zinc-200 duration-500" />
                 </div>
-                <p className="font-medium text-base">{text}</p>
+                <h2 className="font-medium text-base">{text}</h2>
               </div>
             </a>
           </div>
