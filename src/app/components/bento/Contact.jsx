@@ -28,7 +28,7 @@ export default function Contact() {
             className="p-[1px] bg-gradient-to-br from-white/20 via-white/2 to-transparent rounded-xl group duration-600 hover:scale-105 hover:from-amber/30 hover:via-amber/4 hover:to-transparent group-hover:from-amber-400/30 hover:via-amber-400/4 hover:to-transparent"
           >
             <a href={href} target="_blank">
-              <div className="flex flex-row items-center gap-4 p-4 bg-gradient-to-br from-black/75 via-black/60 to-transparent hover:from-black/70 backdrop-blur-sm rounded-xl w-xl">
+              <div className="flex flex-row items-center gap-4 p-4 bg-gradient-to-br from-black/75 via-black/60 to-transparent hover:from-black/70 backdrop-blur-sm rounded-xl w-lg">
                 <div className="p-2 border-1 border-zinc-700 rounded-xl group-hover:border-amber-400/20 duration-600">
                   <Icon className="w-6 h-auto" />
                 </div>
