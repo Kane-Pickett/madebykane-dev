@@ -11,6 +11,7 @@ import {
   SiGithub,
   SiSupabase,
   SiNotion,
+  SiMake,
   SiOpenai,
   SiClaude
 } from "react-icons/si";
@@ -21,21 +22,23 @@ const Icons = [
   { key: 2, icon: IoLogoCss3, color: "group-hover:text-zinc-200" },
   { key: 3, icon: IoLogoJavascript, color: "group-hover:text-zinc-200" },
   { key: 4, icon: IoLogoReact, color: "group-hover:text-zinc-200" },
-  { key: 5, icon: SiTailwindcss, color: "group-hover:text-zinc-200" },
-  { key: 6, icon: RiNextjsFill, color: "group-hover:text-zinc-200" },
+  { key: 5, icon: FaGolang, color: "group-hover:text-zinc-200" },
+  { key: 6, icon: SiTailwindcss, color: "group-hover:text-zinc-200" },
+  { key: 7, icon: RiNextjsFill, color: "group-hover:text-zinc-200" },
   {
-    key: 7,
+    key: 8,
     icon: SiGithub,
     color: "group-hover:text-sky-400/80",
     href: "https://github.com/Kane-Pickett",
     animation:
       "group-hover:motion-opacity-loop-60 motion-duration-1200 motion-ease-in-out duration-400"
   },
-  { key: 8, icon: SiExpo, color: "group-hover:text-zinc-200" },
-  { key: 9, icon: SiSupabase, color: "group-hover:text-zinc-200" },
-  { key: 10, icon: SiNotion, color: "group-hover:text-zinc-200" },
-  { key: 11, icon: SiOpenai, color: "group-hover:text-zinc-200" },
-  { key: 12, icon: SiClaude, color: "group-hover:text-zinc-200" }
+  { key: 9, icon: SiExpo, color: "group-hover:text-zinc-200" },
+  { key: 10, icon: SiSupabase, color: "group-hover:text-zinc-200" },
+  { key: 11, icon: SiNotion, color: "group-hover:text-zinc-200" },
+  { key: 12, icon: SiMake, color: "group-hover:text-zinc-200" },
+  { key: 13, icon: SiOpenai, color: "group-hover:text-zinc-200" },
+  { key: 14, icon: SiClaude, color: "group-hover:text-zinc-200" }
 ];
 
 // note.... I could maybe just wrap all of these mapped things with a bentobox? That way the styling is consistent? Less control, but cleaner?
@@ -45,7 +48,7 @@ export default function TechStack() {
     <div className="flex flex-col gap-4 p-8">
       <h1 className="font-bold text-center md:text-left mb-4">Tech Stack</h1>
 
-      <div className="grid grid-cols-4 md:grid-cols-6 items-center text-center justify-center m-auto gap-4">
+      <div className="grid grid-cols-4 md:grid-cols-7 items-center text-center justify-center m-auto gap-4">
         {Icons.map(({ key, icon: Icon, color, href, animation }) => (
           <a key={key} href={href} target="_blank">
             <div
