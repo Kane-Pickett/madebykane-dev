@@ -10,25 +10,24 @@ const Missions = [
   },
   {
     key: 2,
+    title: "Minimal",
+    subtitle: "My automation business",
+    linkIcon: LuLink,
+    href: "https://getminimal.io/"
+  },
+  {
+    key: 3,
     title: "FlowBerri",
     subtitle: "Content creation portfolio",
     linkIcon: LuLink,
     href: "https://www.flowberri.com/"
   },
   {
-    key: 3,
+    key: 4,
     title: "Bio Site",
     subtitle: "Custom link in bio",
     linkIcon: LuLink,
     href: "https://bio.madebykane.dev/"
-  },
-
-  {
-    key: 4,
-    title: "OccultDungeon",
-    subtitle: "Simple adventure game",
-    linkIcon: LuLink,
-    href: "https://occult-dungeon.vercel.app/"
   }
 ];
 

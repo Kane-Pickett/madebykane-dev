@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
           href="/favicon/android-chrome-512x512.png"
         />
       </head>
-      <body>{children}</body>
+      <body suppressHydrationWarning>{children}</body>
     </html>
   );
 }
