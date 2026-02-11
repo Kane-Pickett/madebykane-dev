@@ -15,16 +15,16 @@ export default function About() {
         <div className="flex flex-col text-center md:text-left gap-2">
           <h1>Kane Pickett</h1>
           <p className="text-zinc-400 group-hover:text-violet-400/80 duration-600">
-            Software Dev & Remote Ninja
+            AI Systems & Automation
           </p>
-          <p className="text-zinc-500">New Zealand</p>
+          <p className="text-zinc-500">New Zealand · Remote</p>
         </div>
       </div>
 
       <div className="text-center md:text-left my-6 text-zinc-400">
         <p>
-          Designing sleek, high-speed interfaces with zero friction. <br />
-          Focused on growing fast and leveling up daily in the dev dojo.
+          Building AI agents and automation systems that remove friction, <br />
+          scale decisions, and compound leverage.
         </p>
       </div>
     </div>

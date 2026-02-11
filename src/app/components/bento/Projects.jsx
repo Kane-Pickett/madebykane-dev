@@ -3,33 +3,41 @@ import { LuLink } from "react-icons/lu";
 const Missions = [
   {
     key: 1,
-    title: "Ninjafy",
-    subtitle: "Gamified personal growth app",
+    title: "Logit",
+    subtitle: "Sales Tracking Platform",
     linkIcon: LuLink,
-    href: "https://www.getninjafy.com/"
+    href: "https://uselogit.com/"
   },
   {
     key: 2,
     title: "Minimal",
-    subtitle: "My automation business",
+    subtitle: "Ai & Automation Business",
     linkIcon: LuLink,
     href: "https://getminimal.io/"
   },
   {
     key: 3,
-    title: "FlowBerri",
-    subtitle: "Content creation portfolio",
+    title: "Ninjafy",
+    subtitle: "Gamified Personal Growth App",
     linkIcon: LuLink,
-    href: "https://www.flowberri.com/"
+    href: "https://www.getninjafy.com/"
   },
   {
     key: 4,
-    title: "Bio Site",
-    subtitle: "Custom link in bio",
+    title: "ATLAS",
+    subtitle: "Agents/ Systems",
     linkIcon: LuLink,
-    href: "https://bio.madebykane.dev/"
+    href: "https://www.notion.so/kanepickett/PUBLIC-ATLAS-PAGE-304be96895ac800dad38db641042d124?source=copy_link"
   }
 ];
+
+// {
+//   key: 3,
+//   title: "FlowBerri",
+//   subtitle: "Content Creation Portfolio",
+//   linkIcon: LuLink,
+//   href: "https://www.flowberri.com/"
+// },
 
 export default function Projects() {
   return (
